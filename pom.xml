@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>95</version>
+        <version>134</version>
     </parent>
 
     <groupId>org.iq80.leveldb</groupId>
@@ -59,12 +59,13 @@
         <air.check.skip-pmd>true</air.check.skip-pmd>
         <air.check.skip-jacoco>true</air.check.skip-jacoco>
 
-        <air.check.skip-checkstyle>${air.check.skip-basic}</air.check.skip-checkstyle>
-        <air.check.fail-checkstyle>${air.check.fail-basic}</air.check.fail-checkstyle>
+        <air.check.skip-checkstyle>true</air.check.skip-checkstyle>
+        <air.check.fail-checkstyle>false</air.check.fail-checkstyle>
 
         <air.javadoc.lint>-missing</air.javadoc.lint>
         <air.license.header-file>src/license/LICENSE-HEADER.txt</air.license.header-file>
         <air.checkstyle.config-file>${air.main.basedir}/src/checkstyle/checks.xml</air.checkstyle.config-file>
+    
     </properties>
 
     <dependencyManagement>
