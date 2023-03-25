@@ -65,6 +65,7 @@
         <air.javadoc.lint>-missing</air.javadoc.lint>
         <air.license.header-file>src/license/LICENSE-HEADER.txt</air.license.header-file>
         <air.checkstyle.config-file>${air.main.basedir}/src/checkstyle/checks.xml</air.checkstyle.config-file>
+        <project.build.targetJdk>17</project.build.targetJdk>
     
     </properties>
 
